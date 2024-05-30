@@ -42,16 +42,6 @@ const Navbar = () => {
         
       </Link>
       <Link
-        to="/register"
-        style={{
-          ...navbarStyles.link,
-          ...(location.pathname === '/register' && navbarStyles.activeLink),
-        }}
-      >
-        Register
-        
-      </Link>
-      <Link
         to="/checklist"
         style={{
           ...navbarStyles.link,

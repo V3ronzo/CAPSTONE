@@ -36,10 +36,15 @@ const Reviews = () => {
     // update the rveiws state with the search results
   };
   const handleSubmitReview = (e) => {
-    if (newReview.startsWith('#')) {
-      setReviews([...reviews, newReview]);
-      setNewReview(' ');
-    
+    e.preventDefault();
+    if (newReview.trim().startsWith('#')) {
+      const reviewObject = {
+        title: newReview.split('#')[1].split(' ')[0],
+        description: newReview.split('#')[1].slice(newReview.split('#')[1].indexOf(' ') + 1),
+        rating: 0,
+      };
+      setReviews([...reviews, reviewObject]);
+      setNewReview('');
     }
   };
 

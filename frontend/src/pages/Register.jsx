@@ -16,6 +16,8 @@ const Register = () => {
         phone: '',
     });
 
+    
+
     const handleChange = (e) => {
         setFormData({
            ...formData,

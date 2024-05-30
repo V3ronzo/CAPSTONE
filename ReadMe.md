@@ -34,3 +34,7 @@ fixed- had a captial somewhere smh. the weather won't display  not sure why yet!
 
 made my own background images!
 
+added a new image to the Home page, the weather data still isn't showing, but i wonder if it's a chrome thing. . 
+
+fixed the register page. The user login works! i should have added a login for the my checklist page. 
+

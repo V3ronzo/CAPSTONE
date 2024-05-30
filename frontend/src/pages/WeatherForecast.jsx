@@ -127,6 +127,7 @@ const WeatherForecast = () => {
                 <h2>Current Weather</h2>
                 <p>Temperature: {weatherData.current_weather.temperature} °F</p>
                 <p>Wind Speed: {weatherData.current_weather.windspeed} mph</p>
+                <p>Percipitation:{weatherData.current_weather.percipitation}inches</p>
                 {/* Display other weather data as needed */}
               </div>
             )}
