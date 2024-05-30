@@ -50,7 +50,7 @@ const Reviews = () => {
       type="text"
       placeholder="Search reviews (e.g. #Pittsburgh)"
       value={searchTerm}
-      onChange={(e) => searchTerm(e.target.value)}
+      onChange={(e) => setSearchTerm(e.target.value)}
       />
       <button onClick={handleSearch}>Search</button>
       {/*... */}

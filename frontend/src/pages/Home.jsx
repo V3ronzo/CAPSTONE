@@ -1,5 +1,6 @@
-import React from'react';
-import { useNAvigate} from'react-router-dom';
+
+import React, { useState } from 'react';
+import { useNavigate} from'react-router-dom';
 
 
 const Home = () => {
