@@ -6,6 +6,8 @@ USERS CAN LOG IN / CREATE AN ACCOUNT. UPLOAD PICTURES, GIVE REVIEWS, AND CREATE 
 I DON'T WANT IT TO BE A BOOKING APP JUST A COMMUNITY OF FELLOW TRAVERLERS TO TALK AND SWAP STORIES . 
 and the user can created a checklist/tasklist/itenarary for themselves.  
 
+The reviews section can just be read like social media posts and/or users can search for specific locations /events by using "#". The hashtag is also how users will start their reviews. 
+
 **************
 
 Issues connecting back and front end... troubleshooting
@@ -25,3 +27,5 @@ server crashed at 2:30am..
 back up had to delete an empty function it seemed like. 
 
 created a new repo. added files to where they need to go. styll trying get weather data to display 
+
+whyyyyy is the screen now white??!!
