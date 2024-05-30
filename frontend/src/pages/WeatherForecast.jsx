@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axiosInstance from '../utils/axiosInstance';
+import axiosInstance from '../../utils/axiosInstance';
 
 const WeatherForecast = () => {
   const [location, setLocation] = useState({ latitude: '', longitude: '' });

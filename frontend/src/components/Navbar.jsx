@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const navbarStyles = {
   nav: {
@@ -12,21 +12,50 @@ const navbarStyles = {
     color: 'black',
     fontWeight: 'bold',
   },
+  activeLink: {
+    color: 'white',
+  },
 };
 
 const Navbar = () => {
+  const location = useLocation();
+
   return (
     <nav style={navbarStyles.nav}>
-      <Link to="/" style={navbarStyles.link}>
+      <Link
+        to="/"
+        style={{
+          ...navbarStyles.link,
+          ...(location.pathname === '/' && navbarStyles.activeLink),
+        }}
+      >
         Home
       </Link>
-      <Link to="/reviews" style={navbarStyles.link}>
+      <Link
+        to="/reviews"
+        style={{
+          ...navbarStyles.link,
+          ...(location.pathname === '/reviews' && navbarStyles.activeLink),
+        }}
+      >
         Reviews
       </Link>
-      <Link to="/checklist" style={navbarStyles.link}>
+      <Link
+        to="/checklist"
+        style={{
+          ...navbarStyles.link,
+          ...(location.pathname === '/checklist' && navbarStyles.activeLink),
+        }}
+      >
         My Checklist
       </Link>
-      <Link to="/weather" style={navbarStyles.link}>
+      <Link
+        to="/weather"
+        style={{
+          ...navbarStyles.link,
+          ...(location.pathname === '/weather' && navbarStyles.activeLink),
+        }}
+      >
         W.O.T.
       </Link>
     </nav>
