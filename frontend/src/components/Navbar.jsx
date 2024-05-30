@@ -9,11 +9,11 @@ const navbarStyles = {
   },
   link: {
     textDecoration: 'none',
-    color: 'black',
+    color: 'white',
     fontWeight: 'bold',
   },
   activeLink: {
-    color: 'white',
+    color: 'orange',
   },
 };
 
@@ -39,6 +39,17 @@ const Navbar = () => {
         }}
       >
         Reviews
+        
+      </Link>
+      <Link
+        to="/register"
+        style={{
+          ...navbarStyles.link,
+          ...(location.pathname === '/register' && navbarStyles.activeLink),
+        }}
+      >
+        Register
+        
       </Link>
       <Link
         to="/checklist"

@@ -29,3 +29,8 @@ back up had to delete an empty function it seemed like.
 created a new repo. added files to where they need to go. styll trying get weather data to display 
 
 whyyyyy is the screen now white??!!
+
+fixed- had a captial somewhere smh. the weather won't display  not sure why yet!! 
+
+made my own background images!
+

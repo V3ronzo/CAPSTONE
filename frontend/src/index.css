@@ -30,12 +30,12 @@ body {
   min-height: 100vh;
 }
 
-/* body {
-  background-image: url('./assets/5685020.jpg');
+body {
+  background-image: url('./assets/WWGBCK.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-} */
+}
 
 h1 {
   font-size: 3.2em;
